@@ -24,10 +24,11 @@ $ sudo swapon /swapfile
  $ git clone https://github.com/erikYX/yxcoin.git    
  $ cd yxcoin/src    
  yxcoin/src$ make -f makefile.unix    
- yxcoin/src$ stryxcoin/srcip yxcoin    
+ yxcoin/src$ strip yxcoin    
  yxcoin/src$ cp -r yxcoin /usr/local/bin/yxcoin    
     
- $ yxcoin & - start yxcoin server daemon     
+ $ yxcoin &    
+ to  start yxcoin server daemon     
     
 It will prompt to xreate configuration file:    
    

@@ -1,4 +1,4 @@
-Name YXcoin
+Name YXlite
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,8 +6,8 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.8.7.5
-!define COMPANY "YXcoin project"
-!define URL http://www.yxcoin.org/
+!define COMPANY "YXlite project"
+!define URL http://www.yxlite.org/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/bitcoin.ico"
@@ -19,8 +19,8 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER YXcoin
-!define MUI_FINISHPAGE_RUN $INSTDIR\yxcoin-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER YXlite
+!define MUI_FINISHPAGE_RUN $INSTDIR\yxlite-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -45,14 +45,14 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile yxcoin-${VERSION}-win32-setup.exe
-InstallDir $PROGRAMFILES\YXcoin
+OutFile yxlite-${VERSION}-win32-setup.exe
+InstallDir $PROGRAMFILES\YXlite
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}
-VIAddVersionKey ProductName YXcoin
+VIAddVersionKey ProductName YXlite
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -66,18 +66,18 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ../release/yxcoin-qt.exe
+    File ../release/yxlite-qt.exe
     File /oname=COPYING.txt ../COPYING
     File /oname=readme.txt ../doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File ../src/yxcoind.exe
+    File ../src/yxlited.exe
     SetOutPath $INSTDIR\src
     File /r /x *.exe /x *.o ../src\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
     # Remove old wxwidgets-based-bitcoin executable and locales:
-    Delete /REBOOTOK $INSTDIR\yxcoin.exe
+    Delete /REBOOTOK $INSTDIR\yxlite.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -87,8 +87,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\YXcoin.lnk" $INSTDIR\yxcoin-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall YXcoin.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\YXlite.lnk" $INSTDIR\yxlite-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall YXlite.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -98,10 +98,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "yxcoin" "URL Protocol" ""
-    WriteRegStr HKCR "yxcoin" "" "URL:YXcoin"
-    WriteRegStr HKCR "yxcoin\DefaultIcon" "" $INSTDIR\yxcoin-qt.exe
-    WriteRegStr HKCR "yxcoin\shell\open\command" "" '"$INSTDIR\yxcoin-qt.exe" "%1"'
+    WriteRegStr HKCR "yxlite" "URL Protocol" ""
+    WriteRegStr HKCR "yxlite" "" "URL:YXlite"
+    WriteRegStr HKCR "yxlite\DefaultIcon" "" $INSTDIR\yxlite-qt.exe
+    WriteRegStr HKCR "yxlite\shell\open\command" "" '"$INSTDIR\yxlite-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -119,7 +119,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\yxcoin-qt.exe
+    Delete /REBOOTOK $INSTDIR\yxlite-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -129,9 +129,9 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall YXcoin.lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\YXcoin.lnk"
-    Delete /REBOOTOK "$SMSTARTUP\YXcoin.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall YXlite.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\YXlite.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\YXlite.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "yxcoin"
+    DeleteRegKey HKCR "yxlite"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

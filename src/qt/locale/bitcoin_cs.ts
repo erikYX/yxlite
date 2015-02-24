@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About YXcoin</source>
-        <translation>O YXcoinu</translation>
+        <source>About YXlite</source>
+        <translation>O YXliteu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;YXcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;YXcoin&lt;/b&gt; verze</translation>
+        <source>&lt;b&gt;YXlite&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;YXlite&lt;/b&gt; verze</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The YXcoin developers</source>
-        <translation>Vývojáři YXcoinu</translation>
+        <source>The YXlite developers</source>
+        <translation>Vývojáři YXliteu</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your YXcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tohle jsou tvé YXcoinové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
+        <source>These are your YXlite addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tohle jsou tvé YXliteové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a YXcoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem YXcoinové adresy</translation>
+        <source>Sign a message to prove you own a YXlite address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem YXliteové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified YXcoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou YXcoinovou adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified YXlite address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou YXliteovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your YXcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tohle jsou tvé YXcoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+        <source>These are your YXlite addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tohle jsou tvé YXliteové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YXCOINS&lt;/b&gt;!</source>
-        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY YXCOINY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YXLITES&lt;/b&gt;!</source>
+        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY YXLITEY&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-56"/>
-        <source>YXcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your yxcoins from being stolen by malware infecting your computer.</source>
-        <translation>YXcoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých yxcoinů malwarem, kterým se může počítač nakazit.</translation>
+        <source>YXlite will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your yxlites from being stolen by malware infecting your computer.</source>
+        <translation>YXlite se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých yxliteů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about YXcoin</source>
-        <translation>Zobraz informace o YXcoinu</translation>
+        <source>Show information about YXlite</source>
+        <translation>Zobraz informace o YXliteu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a YXcoin address</source>
-        <translation>Pošli mince na YXcoinovou adresu</translation>
+        <source>Send coins to a YXlite address</source>
+        <translation>Pošli mince na YXliteovou adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for YXcoin</source>
-        <translation>Uprav nastavení YXcoinu</translation>
+        <source>Modify configuration options for YXlite</source>
+        <translation>Uprav nastavení YXliteu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>YXcoin</source>
-        <translation>YXcoin</translation>
+        <source>YXlite</source>
+        <translation>YXlite</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About YXcoin</source>
-        <translation>O &amp;YXcoinu</translation>
+        <source>&amp;About YXlite</source>
+        <translation>O &amp;YXliteu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your YXcoin addresses to prove you own them</source>
-        <translation>Podepiš zprávy svými YXcoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+        <source>Sign messages with your YXlite addresses to prove you own them</source>
+        <translation>Podepiš zprávy svými YXliteovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified YXcoin addresses</source>
-        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými YXcoinovými adresami</translation>
+        <source>Verify messages to ensure they were signed with specified YXlite addresses</source>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými YXliteovými adresami</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+47"/>
-        <source>YXcoin client</source>
-        <translation>YXcoin klient</translation>
+        <source>YXlite client</source>
+        <translation>YXlite klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to YXcoin network</source>
-        <translation><numerusform>%n aktivní spojení do YXcoinové sítě</numerusform><numerusform>%n aktivní spojení do YXcoinové sítě</numerusform><numerusform>%n aktivních spojení do YXcoinové sítě</numerusform></translation>
+        <source>%n active connection(s) to YXlite network</source>
+        <translation><numerusform>%n aktivní spojení do YXliteové sítě</numerusform><numerusform>%n aktivní spojení do YXliteové sítě</numerusform><numerusform>%n aktivních spojení do YXliteové sítě</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresa: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid YXcoin address or malformed URI parameters.</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná YXcoinová adresa nebo poškozené parametry URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid YXlite address or malformed URI parameters.</source>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná YXliteová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. YXcoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. YXcoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. YXlite can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. YXlite nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid YXcoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná YXcoinová adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid YXlite address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná YXliteová adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresa: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>YXcoin-Qt</source>
-        <translation>YXcoin-Qt</translation>
+        <source>YXlite-Qt</source>
+        <translation>YXlite-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start YXcoin after logging in to the system.</source>
-        <translation>Automaticky spustí YXcoin po přihlášení do systému.</translation>
+        <source>Automatically start YXlite after logging in to the system.</source>
+        <translation>Automaticky spustí YXlite po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start YXcoin on system login</source>
-        <translation>S&amp;pustit YXcoin po přihlášení do systému</translation>
+        <source>&amp;Start YXlite on system login</source>
+        <translation>S&amp;pustit YXlite po přihlášení do systému</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,7 +844,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the YXcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the YXlite client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -854,8 +854,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the YXcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připojí se do YXcoinové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
+        <source>Connect to the YXlite network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Připojí se do YXliteové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting YXcoin.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování YXcoinu.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting YXlite.</source>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování YXliteu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show YXcoin addresses in the transaction list or not.</source>
-        <translation>Zda ukazovat yxcoinové adresy ve výpisu transakcí nebo ne.</translation>
+        <source>Whether to show YXlite addresses in the transaction list or not.</source>
+        <translation>Zda ukazovat yxliteové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresa: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting YXcoin.</source>
-        <translation>Nastavení se projeví až po restartování YXcoinu.</translation>
+        <source>This setting will take effect after restarting YXlite.</source>
+        <translation>Nastavení se projeví až po restartování YXliteu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresa: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the YXcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s YXcoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the YXlite network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s YXliteovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adresa: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start yxcoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit yxcoin: obsluha click-to-pay</translation>
+        <source>Cannot start yxlite: click-to-pay handler</source>
+        <translation>Nemůžu spustit yxlite: obsluha click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the YXcoin-Qt help message to get a list with possible YXcoin command-line options.</source>
-        <translation>Seznam parametrů YXcoinu pro příkazovou řádku získáš v nápovědě YXcoinu Qt.</translation>
+        <source>Show the YXlite-Qt help message to get a list with possible YXlite command-line options.</source>
+        <translation>Seznam parametrů YXliteu pro příkazovou řádku získáš v nápovědě YXliteu Qt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresa: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>YXcoin - Debug window</source>
-        <translation>YXcoin - ladicí okno</translation>
+        <source>YXlite - Debug window</source>
+        <translation>YXlite - ladicí okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>YXcoin Core</source>
-        <translation>Jádro YXcoinu</translation>
+        <source>YXlite Core</source>
+        <translation>Jádro YXliteu</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the YXcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři soubor s ladicími záznamy YXcoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
+        <source>Open the YXlite debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři soubor s ladicími záznamy YXliteu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the YXcoin RPC console.</source>
-        <translation>Vítej v YXcoinové RPC konzoli.</translation>
+        <source>Welcome to the YXlite RPC console.</source>
+        <translation>Vítej v YXliteové RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a YXcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadej YXcoinovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a YXlite address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadej YXliteovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this YXcoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této YXcoinové adresy</translation>
+        <source>Sign the message to prove you own this YXlite address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této YXliteové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified YXcoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou YXcoinovou adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified YXlite address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou YXliteovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresa: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a YXcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadej YXcoinovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a YXlite address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadej YXliteovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter YXcoin signature</source>
-        <translation>Vlož YXcoinový podpis</translation>
+        <source>Enter YXlite signature</source>
+        <translation>Vlož YXliteový podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adresa: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The YXcoin developers</source>
-        <translation>Vývojáři YXcoinu</translation>
+        <source>The YXlite developers</source>
+        <translation>Vývojáři YXliteu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresa: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>YXcoin version</source>
-        <translation>Verze YXcoinu</translation>
+        <source>YXlite version</source>
+        <translation>Verze YXliteu</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or yxcoind</source>
-        <translation>Poslat příkaz pro -server nebo yxcoind</translation>
+        <source>Send command to -server or yxlited</source>
+        <translation>Poslat příkaz pro -server nebo yxlited</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: yxcoin.conf)</source>
-        <translation>Konfigurační soubor (výchozí: yxcoin.conf)</translation>
+        <source>Specify configuration file (default: yxlite.conf)</source>
+        <translation>Konfigurační soubor (výchozí: yxlite.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: yxcoind.pid)</source>
-        <translation>PID soubor (výchozí: yxcoind.pid)</translation>
+        <source>Specify pid file (default: yxlited.pid)</source>
+        <translation>PID soubor (výchozí: yxlited.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Adresa: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=yxcoinrpc
+rpcuser=yxliterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;YXlite Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
 %s
 Je vhodné použít následující náhodné heslo:
-rpcuser=yxcoinrpc
+rpcuser=yxliterpc
 rpcpassword=%s
 (není potřeba si ho pamatovat)
 rpcuser a rpcpassword NESMÍ být stejné.
 Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
 Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
-například: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.com
+například: alertnotify=echo %%s | mail -s &quot;YXlite Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ například: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. YXcoin is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. YXcoin pravděpodobně už jednou běží.</translation>
+        <source>Cannot obtain a lock on data directory %s. YXlite is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. YXlite pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ například: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong YXcoin will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, YXcoin nebude fungovat správně.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong YXlite will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, YXlite nebude fungovat správně.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ například: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the YXcoin Wiki for SSL setup instructions)</source>
-        <translation>Možnosti SSL: (viz instrukce nastavení SSL v YXcoin Wiki)</translation>
+        <source>SSL options: (see the YXlite Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL: (viz instrukce nastavení SSL v YXlite Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ například: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of YXcoin</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi YXcoinu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of YXlite</source>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi YXliteu</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart YXcoin to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj YXcoin, aby se operace dokončila</translation>
+        <source>Wallet needed to be rewritten: restart YXlite to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj YXlite, aby se operace dokončila</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ například: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. YXcoin is probably already running.</source>
-        <translation>Nedaří se mi připojit na %s na tomhle počítači. YXcoin už pravděpodobně jednou běží.</translation>
+        <source>Unable to bind to %s on this computer. YXlite is probably already running.</source>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. YXlite už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <location line="+64"/>

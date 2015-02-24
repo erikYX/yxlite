@@ -1,9 +1,9 @@
-Building YXcoin
+Building YXlite
 
-See doc/readme-qt.rst for instructions on building YXcoin-Qt,
+See doc/readme-qt.rst for instructions on building YXlite-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of YXcoin.
+implementation of YXlite.
 
-See doc/build-*.txt for instructions on building yxcoind,
+See doc/build-*.txt for instructions on building yxlited,
 the intended-for-services, no-graphical-interface, reference
-implementation of YXcoin.
+implementation of YXlite.

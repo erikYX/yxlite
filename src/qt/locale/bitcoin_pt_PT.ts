@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About YXcoin</source>
-        <translation>Sobre YXcoin</translation>
+        <source>About YXlite</source>
+        <translation>Sobre YXlite</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;YXcoin&lt;/b&gt; version</source>
-        <translation>Versão do &lt;b&gt;YXcoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;YXlite&lt;/b&gt; version</source>
+        <translation>Versão do &lt;b&gt;YXlite&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The YXcoin developers</source>
-        <translation>Os programadores YXcoin</translation>
+        <source>The YXlite developers</source>
+        <translation>Os programadores YXlite</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your YXcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estes são os seus endereços YXcoin para receber pagamentos. Poderá enviar um endereço diferente para cada remetente para poder identificar os pagamentos.</translation>
+        <source>These are your YXlite addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estes são os seus endereços YXlite para receber pagamentos. Poderá enviar um endereço diferente para cada remetente para poder identificar os pagamentos.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a YXcoin address</source>
-        <translation>Assine uma mensagem para provar que é dono de um endereço YXcoin</translation>
+        <source>Sign a message to prove you own a YXlite address</source>
+        <translation>Assine uma mensagem para provar que é dono de um endereço YXlite</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified YXcoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço YXcoin especificado</translation>
+        <source>Verify a message to ensure it was signed with a specified YXlite address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço YXlite especificado</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your YXcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços YXcoin para enviar pagamentos. Verifique sempre o valor e a morada de envio antes de enviar moedas.</translation>
+        <source>These are your YXlite addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços YXlite para enviar pagamentos. Verifique sempre o valor e a morada de envio antes de enviar moedas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YXCOINS&lt;/b&gt;!</source>
-        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS YXCOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YXLITES&lt;/b&gt;!</source>
+        <translation>Atenção: Se encriptar a carteira e perder a sua senha irá &lt;b&gt;PERDER TODOS OS SEUS YXLITES&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-56"/>
-        <source>YXcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your yxcoins from being stolen by malware infecting your computer.</source>
-        <translation>O cliente YXcoin irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus yxcoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
+        <source>YXlite will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your yxlites from being stolen by malware infecting your computer.</source>
+        <translation>O cliente YXlite irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus yxlites de serem roubados por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about YXcoin</source>
-        <translation>Mostrar informação sobre YXcoin</translation>
+        <source>Show information about YXlite</source>
+        <translation>Mostrar informação sobre YXlite</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a YXcoin address</source>
-        <translation>Enviar moedas para um endereço yxcoin</translation>
+        <source>Send coins to a YXlite address</source>
+        <translation>Enviar moedas para um endereço yxlite</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for YXcoin</source>
-        <translation>Modificar opções de configuração para yxcoin</translation>
+        <source>Modify configuration options for YXlite</source>
+        <translation>Modificar opções de configuração para yxlite</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>YXcoin</source>
-        <translation>YXcoin</translation>
+        <source>YXlite</source>
+        <translation>YXlite</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About YXcoin</source>
-        <translation>&amp;Sobre o YXcoin</translation>
+        <source>&amp;About YXlite</source>
+        <translation>&amp;Sobre o YXlite</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your YXcoin addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços YXcoin para provar que os controla</translation>
+        <source>Sign messages with your YXlite addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços YXlite para provar que os controla</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified YXcoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço YXcoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified YXlite addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço YXlite especificado</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Este produto inclui software desenvolvido pelo Projecto OpenSSL para uso no Open
     </message>
     <message>
         <location line="+47"/>
-        <source>YXcoin client</source>
-        <translation>Cliente YXcoin</translation>
+        <source>YXlite client</source>
+        <translation>Cliente YXlite</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to YXcoin network</source>
-        <translation><numerusform>%n ligação ativa à rede YXcoin</numerusform><numerusform>%n ligações ativas à rede YXcoin</numerusform></translation>
+        <source>%n active connection(s) to YXlite network</source>
+        <translation><numerusform>%n ligação ativa à rede YXlite</numerusform><numerusform>%n ligações ativas à rede YXlite</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Endereço: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid YXcoin address or malformed URI parameters.</source>
-        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço YXcoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid YXlite address or malformed URI parameters.</source>
+        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço YXlite inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. YXcoin can no longer continue safely and will quit.</source>
-        <translation>Ocorreu um erro fatal. O YXcoin não pode continuar com segurança e irá fechar.</translation>
+        <source>A fatal error occurred. YXlite can no longer continue safely and will quit.</source>
+        <translation>Ocorreu um erro fatal. O YXlite não pode continuar com segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid YXcoin address.</source>
-        <translation>O endereço introduzido &quot;%1&quot; não é um endereço yxcoin válido.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid YXlite address.</source>
+        <translation>O endereço introduzido &quot;%1&quot; não é um endereço yxlite válido.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Endereço: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>YXcoin-Qt</source>
-        <translation>YXcoin-Qt</translation>
+        <source>YXlite-Qt</source>
+        <translation>YXlite-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Endereço: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start YXcoin after logging in to the system.</source>
-        <translation>Começar o YXcoin automaticamente ao iniciar sessão no sistema.</translation>
+        <source>Automatically start YXlite after logging in to the system.</source>
+        <translation>Começar o YXlite automaticamente ao iniciar sessão no sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start YXcoin on system login</source>
-        <translation>&amp;Começar o YXcoin ao iniciar o sistema</translation>
+        <source>&amp;Start YXlite on system login</source>
+        <translation>&amp;Começar o YXlite ao iniciar o sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the YXcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente yxcoin automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <source>Automatically open the YXlite client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir a porta do cliente yxlite automaticamente no seu router. Isto penas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the YXcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Ligar à rede YXcoin através de um proxy SOCKS (p.ex. quando ligar através de Tor).</translation>
+        <source>Connect to the YXlite network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Ligar à rede YXlite através de um proxy SOCKS (p.ex. quando ligar através de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting YXcoin.</source>
-        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o YXcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting YXlite.</source>
+        <translation>A linguagem da interface do utilizador pode ser definida aqui. Esta definição entrará em efeito após reiniciar o YXlite.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show YXcoin addresses in the transaction list or not.</source>
-        <translation>Se mostrar, ou não, os endereços YXcoin na lista de transações.</translation>
+        <source>Whether to show YXlite addresses in the transaction list or not.</source>
+        <translation>Se mostrar, ou não, os endereços YXlite na lista de transações.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Endereço: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting YXcoin.</source>
-        <translation>Esta opção entrará em efeito após reiniciar o YXcoin.</translation>
+        <source>This setting will take effect after restarting YXlite.</source>
+        <translation>Esta opção entrará em efeito após reiniciar o YXlite.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Endereço: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the YXcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede YXcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the YXlite network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede YXlite depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Endereço: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start yxcoin: click-to-pay handler</source>
-        <translation>Impossível começar o modo clicar-para-pagar com yxcoin:</translation>
+        <source>Cannot start yxlite: click-to-pay handler</source>
+        <translation>Impossível começar o modo clicar-para-pagar com yxlite:</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the YXcoin-Qt help message to get a list with possible YXcoin command-line options.</source>
-        <translation>Mostrar a mensagem de ajuda do YXcoin-Qt para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
+        <source>Show the YXlite-Qt help message to get a list with possible YXlite command-line options.</source>
+        <translation>Mostrar a mensagem de ajuda do YXlite-Qt para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Endereço: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>YXcoin - Debug window</source>
-        <translation>YXcoin - Janela de depuração</translation>
+        <source>YXlite - Debug window</source>
+        <translation>YXlite - Janela de depuração</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>YXcoin Core</source>
-        <translation>Núcleo YXcoin</translation>
+        <source>YXlite Core</source>
+        <translation>Núcleo YXlite</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,7 +1254,7 @@ Endereço: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the YXcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the YXlite debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir o ficheiro de registo de depuração da pasta de dados actual. Isto pode demorar alguns segundos para ficheiros de registo maiores.</translation>
     </message>
     <message>
@@ -1264,8 +1264,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the YXcoin RPC console.</source>
-        <translation>Bem-vindo à consola RPC YXcoin.</translation>
+        <source>Welcome to the YXlite RPC console.</source>
+        <translation>Bem-vindo à consola RPC YXlite.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Endereço: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a YXcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduza um endereço YXcoin (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a YXlite address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduza um endereço YXlite (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this YXcoin address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço YXcoin</translation>
+        <source>Sign the message to prove you own this YXlite address</source>
+        <translation>Assine uma mensagem para provar que é dono deste endereço YXlite</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified YXcoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço YXcoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified YXlite address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço YXlite especificado</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Endereço: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a YXcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduza um endereço YXcoin (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a YXlite address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduza um endereço YXlite (p.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Endereço: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter YXcoin signature</source>
-        <translation>Introduza assinatura YXcoin</translation>
+        <source>Enter YXlite signature</source>
+        <translation>Introduza assinatura YXlite</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Endereço: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The YXcoin developers</source>
-        <translation>Os programadores YXcoin</translation>
+        <source>The YXlite developers</source>
+        <translation>Os programadores YXlite</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Endereço: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>YXcoin version</source>
-        <translation>Versão YXcoin</translation>
+        <source>YXlite version</source>
+        <translation>Versão YXlite</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Endereço: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or yxcoind</source>
-        <translation>Enviar comando para -server ou yxcoind</translation>
+        <source>Send command to -server or yxlited</source>
+        <translation>Enviar comando para -server ou yxlited</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Endereço: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: yxcoin.conf)</source>
-        <translation>Especificar ficheiro de configuração (por defeito: yxcoin.conf)</translation>
+        <source>Specify configuration file (default: yxlite.conf)</source>
+        <translation>Especificar ficheiro de configuração (por defeito: yxlite.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: yxcoind.pid)</source>
-        <translation>Especificar ficheiro pid (por defeito: yxcoind.pid)</translation>
+        <source>Specify pid file (default: yxlited.pid)</source>
+        <translation>Especificar ficheiro pid (por defeito: yxlited.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Endereço: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=yxcoinrpc
+rpcuser=yxliterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;YXlite Alert&quot; admin@foo.com
 </source>
         <translation>%s, deverá definir rpcpassword no ficheiro de configuração :
  %s
 É recomendado que use a seguinte palavra-passe aleatória:
-rpcuser=yxcoinrpc
+rpcuser=yxliterpc
 rpcpassword=%s
 (não precisa recordar esta palavra-passe)
 O nome de utilizador e password NÃO DEVEM ser iguais.
 Se o ficheiro não existir, crie-o com permissões de leitura apenas para o dono.
 Também é recomendado definir alertnotify para que seja alertado sobre problemas;
-por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta YXcoin&quot; admin@foo.com
+por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta YXlite&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta YXcoin&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. YXcoin is probably already running.</source>
-        <translation>Impossível trancar a pasta de dados %s.  Provavelmente o YXcoin já está a ser executado.</translation>
+        <source>Cannot obtain a lock on data directory %s. YXlite is probably already running.</source>
+        <translation>Impossível trancar a pasta de dados %s.  Provavelmente o YXlite já está a ser executado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta YXcoin&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong YXcoin will not work properly.</source>
-        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o YXcoin não irá funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong YXlite will not work properly.</source>
+        <translation>Atenção: Por favor verifique que a data e hora do seu computador estão correctas! Se o seu relógio não estiver certo o YXlite não irá funcionar correctamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta YXcoin&quot; admin@foo.
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the YXcoin Wiki for SSL setup instructions)</source>
-        <translation>Opções SSL: (ver a Wiki YXcoin para instruções de configuração SSL)</translation>
+        <source>SSL options: (see the YXlite Wiki for SSL setup instructions)</source>
+        <translation>Opções SSL: (ver a Wiki YXlite para instruções de configuração SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta YXcoin&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of YXcoin</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do YXcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of YXlite</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma versão mais recente do YXlite</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart YXcoin to complete</source>
-        <translation>A Carteira precisou ser reescrita: reinicie o YXcoin para completar</translation>
+        <source>Wallet needed to be rewritten: restart YXlite to complete</source>
+        <translation>A Carteira precisou ser reescrita: reinicie o YXlite para completar</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;Alerta YXcoin&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. YXcoin is probably already running.</source>
-        <translation>Incapaz de vincular à porta %s neste computador.  Provavelmente o YXcoin já está a funcionar.</translation>
+        <source>Unable to bind to %s on this computer. YXlite is probably already running.</source>
+        <translation>Incapaz de vincular à porta %s neste computador.  Provavelmente o YXlite já está a funcionar.</translation>
     </message>
     <message>
         <location line="+64"/>

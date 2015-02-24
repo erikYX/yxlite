@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About YXcoin</source>
-        <translation>Om YXcoin</translation>
+        <source>About YXlite</source>
+        <translation>Om YXlite</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;YXcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;YXcoin&lt;/b&gt;-version</translation>
+        <source>&lt;b&gt;YXlite&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;YXlite&lt;/b&gt;-version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -35,8 +35,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+0"/>
-        <source>The YXcoin developers</source>
-        <translation>YXcoin-utvecklarna</translation>
+        <source>The YXlite developers</source>
+        <translation>YXlite-utvecklarna</translation>
     </message>
 </context>
 <context>
@@ -68,8 +68,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your YXcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Detta är dina YXcoin-adresser för att ta emot betalningar.  Du kan ge varje avsändare en egen adress så att du kan hålla reda på vem som betalar dig.</translation>
+        <source>These are your YXlite addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Detta är dina YXlite-adresser för att ta emot betalningar.  Du kan ge varje avsändare en egen adress så att du kan hålla reda på vem som betalar dig.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,7 +83,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a YXcoin address</source>
+        <source>Sign a message to prove you own a YXlite address</source>
         <translation>Signera ett meddelande för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -108,8 +108,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified YXcoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den specificerade YXcoin-adressen</translation>
+        <source>Verify a message to ensure it was signed with a specified YXlite address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den specificerade YXlite-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,8 +123,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your YXcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina YXcoin adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar YXcoins.</translation>
+        <source>These are your YXlite addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina YXlite adresser för att skicka betalningar. Kolla alltid summan och den mottagande adressen innan du skickar YXlites.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -139,7 +139,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>Skicka &amp;YXcoins</translation>
+        <translation>Skicka &amp;YXlites</translation>
     </message>
     <message>
         <location line="+260"/>
@@ -249,7 +249,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YXCOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR YXLITES&lt;/b&gt;!</source>
         <translation>VARNING: Om du krypterar din plånbok och glömmer ditt lösenord, kommer du att &lt;b&gt;FÖRLORA ALLA DINA TILLGÅNGAR&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -276,7 +276,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-56"/>
-        <source>YXcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your yxcoins from being stolen by malware infecting your computer.</source>
+        <source>YXlite will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your yxlites from being stolen by malware infecting your computer.</source>
         <translation>Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
@@ -375,8 +375,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about YXcoin</source>
-        <translation>Visa information om YXcoin</translation>
+        <source>Show information about YXlite</source>
+        <translation>Visa information om YXlite</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -420,13 +420,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a YXcoin address</source>
-        <translation>Skicka mynt till en YXcoin-adress</translation>
+        <source>Send coins to a YXlite address</source>
+        <translation>Skicka mynt till en YXlite-adress</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for YXcoin</source>
-        <translation>Ändra konfigurationsalternativ för YXcoin</translation>
+        <source>Modify configuration options for YXlite</source>
+        <translation>Ändra konfigurationsalternativ för YXlite</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -456,8 +456,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>YXcoin</source>
-        <translation>YXcoin</translation>
+        <source>YXlite</source>
+        <translation>YXlite</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -481,8 +481,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About YXcoin</source>
-        <translation>&amp;Om YXcoin</translation>
+        <source>&amp;About YXlite</source>
+        <translation>&amp;Om YXlite</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -501,13 +501,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your YXcoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med din YXcoinadress för att bevisa att du äger dem</translation>
+        <source>Sign messages with your YXlite addresses to prove you own them</source>
+        <translation>Signera meddelanden med din YXliteadress för att bevisa att du äger dem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified YXcoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade YXcoin-adressen</translation>
+        <source>Verify messages to ensure they were signed with specified YXlite addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de var signerade med den specificerade YXlite-adressen</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -537,13 +537,13 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
     </message>
     <message>
         <location line="+47"/>
-        <source>YXcoin client</source>
-        <translation>YXcoin-klient</translation>
+        <source>YXlite client</source>
+        <translation>YXlite-klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to YXcoin network</source>
-        <translation><numerusform>%n aktiv anslutning till YXcoin-nätverket</numerusform><numerusform>%n aktiva anslutningar till YXcoin-nätverket</numerusform></translation>
+        <source>%n active connection(s) to YXlite network</source>
+        <translation><numerusform>%n aktiv anslutning till YXlite-nätverket</numerusform><numerusform>%n aktiva anslutningar till YXlite-nätverket</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -657,8 +657,8 @@ Adress: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid YXcoin address or malformed URI parameters.</source>
-        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig YXcoin-adress eller felaktiga URI parametrar.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid YXlite address or malformed URI parameters.</source>
+        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig YXlite-adress eller felaktiga URI parametrar.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -672,8 +672,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. YXcoin can no longer continue safely and will quit.</source>
-        <translation>Ett allvarligt fel har uppstått. YXcoin kan inte längre köras säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. YXlite can no longer continue safely and will quit.</source>
+        <translation>Ett allvarligt fel har uppstått. YXlite kan inte längre köras säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -738,8 +738,8 @@ Adress: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid YXcoin address.</source>
-        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig YXcoin-adress.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid YXlite address.</source>
+        <translation>Den angivna adressen &quot;%1&quot; är inte en giltig YXlite-adress.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -757,8 +757,8 @@ Adress: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>YXcoin-Qt</source>
-        <translation>YXcoin-Qt</translation>
+        <source>YXlite-Qt</source>
+        <translation>YXlite-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -820,13 +820,13 @@ Adress: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start YXcoin after logging in to the system.</source>
-        <translation>Starta YXcoin automatiskt efter inloggning.</translation>
+        <source>Automatically start YXlite after logging in to the system.</source>
+        <translation>Starta YXlite automatiskt efter inloggning.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start YXcoin on system login</source>
-        <translation>&amp;Starta YXcoin vid systemstart</translation>
+        <source>&amp;Start YXlite on system login</source>
+        <translation>&amp;Starta YXlite vid systemstart</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -845,8 +845,8 @@ Adress: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the YXcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt YXcoin-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
+        <source>Automatically open the YXlite client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt YXlite-klientens port på routern. Detta fungerar endast om din router har UPnP aktiverat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -855,8 +855,8 @@ Adress: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the YXcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Anslut till YXcoin-nätverket genom en SOCKS-proxy (t.ex. när du ansluter genom Tor).</translation>
+        <source>Connect to the YXlite network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Anslut till YXlite-nätverket genom en SOCKS-proxy (t.ex. när du ansluter genom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -930,8 +930,8 @@ Adress: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting YXcoin.</source>
-        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av YXcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting YXlite.</source>
+        <translation>Användargränssnittets språk kan ställas in här. Denna inställning träder i kraft efter en omstart av YXlite.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -945,8 +945,8 @@ Adress: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show YXcoin addresses in the transaction list or not.</source>
-        <translation>Anger om YXcoin-adresser skall visas i transaktionslistan.</translation>
+        <source>Whether to show YXlite addresses in the transaction list or not.</source>
+        <translation>Anger om YXlite-adresser skall visas i transaktionslistan.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -997,8 +997,8 @@ Adress: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting YXcoin.</source>
-        <translation>Denna inställning träder i kraft efter en omstart av YXcoin.</translation>
+        <source>This setting will take effect after restarting YXlite.</source>
+        <translation>Denna inställning träder i kraft efter en omstart av YXlite.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1016,8 +1016,8 @@ Adress: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the YXcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med YXcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the YXlite network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med YXlite-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1070,8 +1070,8 @@ Adress: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start yxcoin: click-to-pay handler</source>
-        <translation>Kan inte starta yxcoin: klicka-och-betala handhavare</translation>
+        <source>Cannot start yxlite: click-to-pay handler</source>
+        <translation>Kan inte starta yxlite: klicka-och-betala handhavare</translation>
     </message>
 </context>
 <context>
@@ -1220,8 +1220,8 @@ Adress: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the YXcoin-Qt help message to get a list with possible YXcoin command-line options.</source>
-        <translation>Visa YXcoin-Qt hjälpmeddelande för att få en lista med möjliga YXcoin kommandoradsalternativ.</translation>
+        <source>Show the YXlite-Qt help message to get a list with possible YXlite command-line options.</source>
+        <translation>Visa YXlite-Qt hjälpmeddelande för att få en lista med möjliga YXlite kommandoradsalternativ.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1240,13 +1240,13 @@ Adress: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>YXcoin - Debug window</source>
-        <translation>YXcoin - Debug fönster</translation>
+        <source>YXlite - Debug window</source>
+        <translation>YXlite - Debug fönster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>YXcoin Core</source>
-        <translation>YXcoin Kärna</translation>
+        <source>YXlite Core</source>
+        <translation>YXlite Kärna</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1255,8 +1255,8 @@ Adress: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the YXcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öppna YXcoin debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
+        <source>Open the YXlite debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öppna YXlite debug-loggfilen som finns i datakatalogen. Detta kan ta några sekunder för stora loggfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1265,8 +1265,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the YXcoin RPC console.</source>
-        <translation>Välkommen till YXcoin RPC-konsollen.</translation>
+        <source>Welcome to the YXlite RPC console.</source>
+        <translation>Välkommen till YXlite RPC-konsollen.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1449,8 +1449,8 @@ Adress: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a YXcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ange en YXcoin-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a YXlite address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ange en YXlite-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1514,7 +1514,7 @@ Adress: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this YXcoin address</source>
+        <source>Sign the message to prove you own this YXlite address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
     </message>
     <message>
@@ -1550,8 +1550,8 @@ Adress: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified YXcoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna YXcoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified YXlite address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna YXlite-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1566,8 +1566,8 @@ Adress: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a YXcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ange en YXcoin-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a YXlite address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ange en YXlite-adress (t.ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1576,8 +1576,8 @@ Adress: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter YXcoin signature</source>
-        <translation>Ange YXcoin-signatur</translation>
+        <source>Enter YXlite signature</source>
+        <translation>Ange YXlite-signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1650,8 +1650,8 @@ Adress: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The YXcoin developers</source>
-        <translation>YXcoin-utvecklarna</translation>
+        <source>The YXlite developers</source>
+        <translation>YXlite-utvecklarna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2188,8 +2188,8 @@ Adress: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>YXcoin version</source>
-        <translation>YXcoin version</translation>
+        <source>YXlite version</source>
+        <translation>YXlite version</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2198,8 +2198,8 @@ Adress: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or yxcoind</source>
-        <translation>Skicka kommando till -server eller yxcoind</translation>
+        <source>Send command to -server or yxlited</source>
+        <translation>Skicka kommando till -server eller yxlited</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2218,13 +2218,13 @@ Adress: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: yxcoin.conf)</source>
-        <translation>Ange konfigurationsfil (förvalt: yxcoin.conf)</translation>
+        <source>Specify configuration file (default: yxlite.conf)</source>
+        <translation>Ange konfigurationsfil (förvalt: yxlite.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: yxcoind.pid)</source>
-        <translation>Ange pid fil (förvalt: yxcoind.pid)</translation>
+        <source>Specify pid file (default: yxlited.pid)</source>
+        <translation>Ange pid fil (förvalt: yxlited.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2301,24 +2301,24 @@ Adress: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=yxcoinrpc
+rpcuser=yxliterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;YXlite Alert&quot; admin@foo.com
 </source>
         <translation>%s, du behöver sätta ett rpclösensord i konfigurationsfilen:
 %s
 Det är rekommenderat att använda följande slumpade lösenord:
-rpcuser=yxcoinrpc
+rpcuser=yxliterpc
 rpcpassword=%s
 (du behöver inte komma ihåg lösenordet)
 Användarnamnet och lösenordet FÅR INTE bara detsamma.
 Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
 Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
-till exempel: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.com
+till exempel: alertnotify=echo %%s | mail -s &quot;YXlite Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2333,8 +2333,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. YXcoin is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s. YXcoin körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. YXlite is probably already running.</source>
+        <translation>Kan inte låsa data-mappen %s. YXlite körs förmodligen redan.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2344,7 +2344,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna yxcoins!</translation>
+        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna yxlites!</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2378,8 +2378,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong YXcoin will not work properly.</source>
-        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer YXcoin inte fungera korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong YXlite will not work properly.</source>
+        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer YXlite inte fungera korrekt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2628,8 +2628,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the YXcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-inställningar: (se YXcoin-wikin för SSL-setup instruktioner)</translation>
+        <source>SSL options: (see the YXlite Wiki for SSL setup instructions)</source>
+        <translation>SSL-inställningar: (se YXlite-wikin för SSL-setup instruktioner)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2818,13 +2818,13 @@ till exempel: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of YXcoin</source>
-        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av YXcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of YXlite</source>
+        <translation>Fel vid inläsningen av wallet.dat: Plånboken kräver en senare version av YXlite</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart YXcoin to complete</source>
-        <translation>Plånboken behöver skrivas om: Starta om YXcoin för att färdigställa</translation>
+        <source>Wallet needed to be rewritten: restart YXlite to complete</source>
+        <translation>Plånboken behöver skrivas om: Starta om YXlite för att färdigställa</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2869,7 +2869,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med yxcoins</translation>
+        <translation>Otillräckligt med yxlites</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2883,8 +2883,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;YXcoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. YXcoin is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. YXcoin är förmodligen redan igång.</translation>
+        <source>Unable to bind to %s on this computer. YXlite is probably already running.</source>
+        <translation>Det går inte att binda till %s på den här datorn. YXlite är förmodligen redan igång.</translation>
     </message>
     <message>
         <location line="+64"/>

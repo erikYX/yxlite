@@ -24,7 +24,7 @@ Release Process
 
 ##perform gitian builds
 
- From a directory containing the yxcoin source, gitian-builder and gitian.sigs
+ From a directory containing the yxlite source, gitian-builder and gitian.sigs
   
 	export SIGNER=(your gitian key, ie bluematt, sipa, etc)
 	export VERSION=0.8.7
@@ -42,69 +42,69 @@ Release Process
 	wget 'http://downloads.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.bz2'
 	wget 'http://download.qt-project.org/official_releases/qt/4.8/4.8.5/qt-everywhere-opensource-src-4.8.5.tar.gz'
 	cd ..
-	./bin/gbuild ../yxcoin/contrib/gitian-descriptors/boost-win32.yml
+	./bin/gbuild ../yxlite/contrib/gitian-descriptors/boost-win32.yml
 	mv build/out/boost-*.zip inputs/
-	./bin/gbuild ../yxcoin/contrib/gitian-descriptors/deps-win32.yml
+	./bin/gbuild ../yxlite/contrib/gitian-descriptors/deps-win32.yml
 	mv build/out/bitcoin*.zip inputs/
-	./bin/gbuild ../yxcoin/contrib/gitian-descriptors/qt-win32.yml
+	./bin/gbuild ../yxlite/contrib/gitian-descriptors/qt-win32.yml
 	mv build/out/qt*.zip inputs/
 
- Build yxcoind and yxcoin-qt on Linux32, Linux64, and Win32:
+ Build yxlited and yxlite-qt on Linux32, Linux64, and Win32:
   
-	./bin/gbuild --commit yxcoin=v${VERSION} ../yxcoin/contrib/gitian-descriptors/gitian.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../yxcoin/contrib/gitian-descriptors/gitian.yml
+	./bin/gbuild --commit yxlite=v${VERSION} ../yxlite/contrib/gitian-descriptors/gitian.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../yxlite/contrib/gitian-descriptors/gitian.yml
 	pushd build/out
-	zip -r yxcoin-${VERSION}-linux.zip *
-	mv yxcoin-${VERSION}-linux.zip ../../
+	zip -r yxlite-${VERSION}-linux.zip *
+	mv yxlite-${VERSION}-linux.zip ../../
 	popd
-	./bin/gbuild --commit yxcoin=v${VERSION} ../yxcoin/contrib/gitian-descriptors/gitian-win32.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win32 --destination ../gitian.sigs/ ../yxcoin/contrib/gitian-descriptors/gitian-win32.yml
+	./bin/gbuild --commit yxlite=v${VERSION} ../yxlite/contrib/gitian-descriptors/gitian-win32.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win32 --destination ../gitian.sigs/ ../yxlite/contrib/gitian-descriptors/gitian-win32.yml
 	pushd build/out
-	zip -r yxcoin-${VERSION}-win32.zip *
-	mv yxcoin-${VERSION}-win32.zip ../../
+	zip -r yxlite-${VERSION}-win32.zip *
+	mv yxlite-${VERSION}-win32.zip ../../
 	popd
 
   Build output expected:
 
-  1. linux 32-bit and 64-bit binaries + source (yxcoin-${VERSION}-linux-gitian.zip)
-  2. windows 32-bit binary, installer + source (yxcoin-${VERSION}-win32-gitian.zip)
+  1. linux 32-bit and 64-bit binaries + source (yxlite-${VERSION}-linux-gitian.zip)
+  2. windows 32-bit binary, installer + source (yxlite-${VERSION}-win32-gitian.zip)
   3. Gitian signatures (in gitian.sigs/${VERSION}[-win32]/(your gitian key)/
 
 repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 **Linux .tar.gz:**
 
-	unzip yxcoin-${VERSION}-linux-gitian.zip -d yxcoin-${VERSION}-linux
-	tar czvf yxcoin-${VERSION}-linux.tar.gz yxcoin-${VERSION}-linux
-	rm -rf yxcoin-${VERSION}-linux
+	unzip yxlite-${VERSION}-linux-gitian.zip -d yxlite-${VERSION}-linux
+	tar czvf yxlite-${VERSION}-linux.tar.gz yxlite-${VERSION}-linux
+	rm -rf yxlite-${VERSION}-linux
 
 **Windows .zip and setup.exe:**
 
-	unzip yxcoin-${VERSION}-win32-gitian.zip -d yxcoin-${VERSION}-win32
-	mv yxcoin-${VERSION}-win32/yxcoin-*-setup.exe .
-	zip -r yxcoin-${VERSION}-win32.zip bitcoin-${VERSION}-win32
-	rm -rf yxcoin-${VERSION}-win32
+	unzip yxlite-${VERSION}-win32-gitian.zip -d yxlite-${VERSION}-win32
+	mv yxlite-${VERSION}-win32/yxlite-*-setup.exe .
+	zip -r yxlite-${VERSION}-win32.zip bitcoin-${VERSION}-win32
+	rm -rf yxlite-${VERSION}-win32
 
 **Perform Mac build:**
 
   OSX binaries are created on a dedicated 32-bit, OSX 10.6.8 machine.
-  YXcoin 0.8.x is built with MacPorts.  0.9.x will be Homebrew only.
+  YXlite 0.8.x is built with MacPorts.  0.9.x will be Homebrew only.
 
 	qmake RELEASE=1 USE_UPNP=1 USE_QRCODE=1
 	make
 	export QTDIR=/opt/local/share/qt4  # needed to find translations/qt_*.qm files
 	T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
 	python2.7 share/qt/clean_mac_info_plist.py
-	python2.7 contrib/macdeploy/macdeployqtplus YXcoin-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
+	python2.7 contrib/macdeploy/macdeployqtplus YXlite-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
 
- Build output expected: YXcoin-Qt.dmg
+ Build output expected: YXlite-Qt.dmg
 
 ###Next steps:
 
 * Code-sign Windows -setup.exe (in a Windows virtual machine) and
   OSX Bitcoin-Qt.app (Note: only Gavin has the code-signing keys currently)
 
-* update yxcoin.org version
+* update yxlite.org version
   make sure all OS download links go to the right versions
 
 * update forum version

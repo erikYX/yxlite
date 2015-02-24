@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>yxcoin.icns</string>
+	<string>yxlite.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>YXcoin-Qt</string>
+	<string>YXlite-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.yxcoin.YXcoin-Qt</string>
+	<string>org.yxlite.YXlite-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.yxcoin.YXcoinPayment</string>
+            <string>org.yxlite.YXlitePayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>yxcoin</string>
+              <string>yxlite</string>
             </array>
           </dict>
         </array>

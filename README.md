@@ -1,4 +1,4 @@
-##YXcoin (YXC) - 
+##YXlite (YXC) - 
 
 =======================================================================    
 ##Installation Linux (Ubuntu, Debian)
@@ -21,22 +21,22 @@ $ sudo swapon /swapfile
   
  $ sudo apt-get install git    
  $ cd /usr/local/src    
- $ git clone https://github.com/erikYX/yxcoin.git    
- $ cd yxcoin/src    
- yxcoin/src$ make -f makefile.unix    
- yxcoin/src$ strip yxcoin    
- yxcoin/src$ cp -r yxcoin /usr/local/bin/yxcoin    
+ $ git clone https://github.com/erikYX/yxlite.git    
+ $ cd yxlite/src    
+ yxlite/src$ make -f makefile.unix    
+ yxlite/src$ strip yxlite    
+ yxlite/src$ cp -r yxlite /usr/local/bin/yxlite    
     
- $ yxcoin &    
- to  start yxcoin server daemon     
+ $ yxlite &    
+ to  start yxlite server daemon     
     
 It will prompt to xreate configuration file:    
    
-yxcoin/src$ cd /home/USER/.yxcoin       
-/home/USER/.yxcoin$ nano yxcoin.conf  
+yxlite/src$ cd /home/USER/.yxlite       
+/home/USER/.yxlite$ nano yxlite.conf  
 
 Enter following: 
-rpcuser=yxcoinrpc   
+rpcuser=yxliterpc   
 rpcpassword=Av6VRZUMruN7cn6dEHAGvGokAYTpKAwxtBrP7BmQPKbu   
    
 server=1   
@@ -49,23 +49,23 @@ addnode=107.170.254.130
 
 
  Commands:   
- $ yxcoin & - start yxcoin server daemon   
- $ yxcoin getinfo - basic info JSON array   
- $ yxcoin excryptwallet <passphrase>   
- $ yxcoin listtransactions - show transactions to wallet   
- $ yxcoin setgenerate true 1 - start mining   
- $ yxcoin getmininginfo - mining status   
- $ yxcoind setgenerate false - stop mining   
- $ yxcoin stop - stop server daemon   
+ $ yxlite & - start yxlite server daemon   
+ $ yxlite getinfo - basic info JSON array   
+ $ yxlite excryptwallet <passphrase>   
+ $ yxlite listtransactions - show transactions to wallet   
+ $ yxlite setgenerate true 1 - start mining   
+ $ yxlite getmininginfo - mining status   
+ $ yxlited setgenerate false - stop mining   
+ $ yxlite stop - stop server daemon   
  
- $ sudo tail -f /home/USER/.yxcoin/debug.log - watch yxcoin network activity   
+ $ sudo tail -f /home/USER/.yxlite/debug.log - watch yxlite network activity   
  
   
   
-Ports:    
-P2P/IRC - Default 2524, Testnet 12524   
-RPC -     Default 2523. Testnet 12523  
-  
+Ports:   
+RPC	  Main 17985, Testnet 27985
+p2p	  Main 17986, Testnet 27986
+ 
    
 Coin data:    
 Coins per block = 23   
@@ -90,7 +90,7 @@ CBlock(hash=9a3149370ea97c017b3d, PoW=00000c1a342387447aea, ver=1, hashPrevBlock
   
   
     
-diff - https://github.com/bfroemel/yxcoin/commit/947a0fafd8d033f6f0960c4ff0748f76a3d58326   
+diff - https://github.com/bfroemel/yxlite/commit/947a0fafd8d033f6f0960c4ff0748f76a3d58326   
 
 
 

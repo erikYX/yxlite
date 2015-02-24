@@ -1,0 +1,9 @@
+Building YXcoin
+
+See doc/readme-qt.rst for instructions on building YXcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of YXcoin.
+
+See doc/build-*.txt for instructions on building yxcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of YXcoin.

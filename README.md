@@ -27,36 +27,34 @@ $ sudo swapon /swapfile
  yxlite/src$ strip yxlite    
  yxlite/src$ cp -r yxlite /usr/local/bin/yxlite    
     
- $ yxlite &    
- to  start yxlite server daemon     
+ $ yxlited &    
+ to  start yxlited server daemon     
     
-It will prompt to xreate configuration file:    
+When you start up the first time, it will prompt to create a yxlite.conf configuration file with a suggested password.    
    
 yxlite/src$ cd /home/USER/.yxlite       
 /home/USER/.yxlite$ nano yxlite.conf  
 
 Enter following: 
-rpcuser=yxliterpc   
-rpcpassword=Av6VRZUMruN7cn6dEHAGvGokAYTpKAwxtBrP7BmQPKbu   
+rpcuser=<USERNAME>   
+rpcpassword=<PASSWORD>   
    
 server=1   
 listen=1   
 daemon=1   
 rpcallowip=localhost   
    
-addnode=104.236.7.110   
-addnode=107.170.254.130    
 
 
  Commands:   
- $ yxlite & - start yxlite server daemon   
- $ yxlite getinfo - basic info JSON array   
- $ yxlite excryptwallet <passphrase>   
- $ yxlite listtransactions - show transactions to wallet   
- $ yxlite setgenerate true 1 - start mining   
- $ yxlite getmininginfo - mining status   
+ $ yxlited & - start yxlite server daemon   
+ $ yxlited getinfo - basic info JSON array   
+ $ yxlited excryptwallet <passphrase>   
+ $ yxlited listtransactions - show transactions to wallet   
+ $ yxlited setgenerate true 1 - start mining   
+ $ yxlited getmininginfo - mining status   
  $ yxlited setgenerate false - stop mining   
- $ yxlite stop - stop server daemon   
+ $ yxlited stop - stop server daemon   
  
  $ sudo tail -f /home/USER/.yxlite/debug.log - watch yxlite network activity   
  
@@ -68,11 +66,11 @@ p2p	  Main 17986, Testnet 27986
  
    
 Coin data:    
-Coins per block = 23   
-Block Interval = 300   // 5 minutes   
-Difficulty reset  =  1 * 24 * 60 * 60 // once/day     
-Max Money = 1000000 // 1 million total coins   
-Estimated coins per day = 6624 // 24 * 60 / 5 = 288 blocks * 23 YXC per block   
+Coins per block = 5   
+Block Interval = 2.5 minutes   
+Difficulty reset  =  .5 * 24 * 60 * 60 // twice/day     
+Max Money = 23000000 // 23 million total coins   
+Estimated coins per day = 2880 // 24 * 60 / 2.5 = 576 blocks * 5 YXC per block   
 
 Pubkey Address prefix = 77  // starts with Y or X  
 

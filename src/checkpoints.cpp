@@ -23,9 +23,9 @@ namespace Checkpoints
 
     struct CCheckpointData {
         const MapCheckpoints *mapCheckpoints;
-        int64 nTimeLastCheckpoint;
-        int64 nTransactionsLastCheckpoint;
-        double fTransactionsPerDay;
+       // int64 nTimeLastCheckpoint;
+       // int64 nTransactionsLastCheckpoint;
+       // double fTransactionsPerDay;
     };
 
     // What makes a good checkpoint block?
@@ -39,10 +39,10 @@ namespace Checkpoints
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1424806182, // * UNIX timestamp of last checkpoint block
-        0,    // * total number of transactions between genesis and last checkpoint
+       // 1424806182, // * UNIX timestamp of last checkpoint block
+       // 0,    // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        0     // * estimated number of transactions per day after checkpoint
+       // 0     // * estimated number of transactions per day after checkpoint
     };
 
     static MapCheckpoints mapCheckpointsTestnet =
